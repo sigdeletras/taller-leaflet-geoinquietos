@@ -2,7 +2,32 @@
 
 Patricio Soriano :: [sigdeletras.com](http://www.sigdeletras.com/)
 
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
+- [Taller básico de visores de mapas con Leaflet](#taller-bsico-de-visores-de-mapas-con-leaflet)
+	- [Práctica 1.- Crear estructura de carpetas y archivos](#prctica-1-crear-estructura-de-carpetas-y-archivos)
+	- [Práctica 2.- Editar index.html](#prctica-2-editar-indexhtml)
+	- [Prática 3.- Añadimos recursos externos (Leaflet, JQuery) e internos (map.css y map.js)](#prtica-3-aadimos-recursos-externos-leaflet-jquery-e-internos-mapcss-y-mapjs)
+	- [Práctica 4.- Editamos map.css](#prctica-4-editamos-mapcss)
+	- [Práctica 5.- Editamos map.js y añadimos L.map](#prctica-5-editamos-mapjs-y-aadimos-lmap)
+	- [Práctica 6.- Añadiendo capa vectorial GeoJSON (JQuery)](#prctica-6-aadiendo-capa-vectorial-geojson-jquery)
+	- [Práctica 7.- Control de capas](#prctica-7-control-de-capas)
+	- [Práctica 8.- Escala](#prctica-8-escala)
+	- [Práctica 9.- Añadiendo L.tileLayer.WMS, GeoJSON poligonal de parques y cargando en control de capas](#prctica-9-aadiendo-ltilelayerwms-geojson-poligonal-de-parques-y-cargando-en-control-de-capas)
+	- [Práctica 10.- Información de los centros](#prctica-10-informacin-de-los-centros)
+	- [Práctica 11.- CSS en popup](#prctica-11-css-en-popup)
+	- [Práctico 12.- Estilo a la capa poligonal (style)](#prctico-12-estilo-a-la-capa-poligonal-style)
+	- [Práctica 13.- Estilo L.circleMarker para capa centros](#prctica-13-estilo-lcirclemarker-para-capa-centros)
+	- [Práctica 14.- Estilo según atributo gestión](#prctica-14-estilo-segn-atributo-gestin)
+	- [Práctica 15.- Utilizar filter para crear dos capas para tipos de gestión](#prctica-15-utilizar-filter-para-crear-dos-capas-para-tipos-de-gestin)
+- [Plugins](#plugins)
+	- [Práctica 16. Plugins. Geocoding](#prctica-16-plugins-geocoding)
+	- [Práctica 17.- Plugins. Hash](#prctica-17-plugins-hash)
+	- [Práctica 18.- Plugins. Locate](#prctica-18-plugins-locate)
+	- [Práctica 19.- Botón de extensión inicial](#prctica-19-botn-de-extensin-inicial)
+- [btn-zum{](#btn-zum)
+
+<!-- /TOC -->
 ## Práctica 1.- Crear estructura de carpetas y archivos
 
 **Carpetas**
