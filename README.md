@@ -371,7 +371,7 @@ index.hmtl
 	<div id='map'></div>
 	<div id='btn-zum'>
  <button type="button">Zum extensión</button>
-	<script src="assets/js/map_p21.js"></script>
+	<script src="assets/js/map.js"></script>
 </div>
 </body>
 ```
