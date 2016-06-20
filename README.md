@@ -67,7 +67,7 @@ Patricio Soriano :: [sigdeletras.com](http://www.sigdeletras.com/)
   <script src='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet-src.js'></script>
   <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
   <link href='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css' rel='stylesheet' />
-  <link rel="stylesheet" href="map.css">
+  <link rel="stylesheet" href="assets/css/map.css">
 ...
 
 </head>
