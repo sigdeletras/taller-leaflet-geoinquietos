@@ -189,7 +189,7 @@ En index.html **Importante!!!**
 ```
 function centrosInfoPopup(feature, layer) {
 
-    layer.bindPopup( "<h4>" + feature.properties.nombre + "</h4>"+"<strong> Tipo: </strong>"+feature.properties.tipo+"<br/>"+ "<strong> Gestión: </strong>"+feature.properties.gestion+"<br/>"+ "<strong> Domicilio: </strong>"+feature.properties.direccion+"<br/>"+ "<strong> Localidad: </strong>"+feature.properties.localidad+"<br/>"+ "<strong> Teléfono: </strong>"+feature.properties.tlfno+"<br/>"+ "<strong> Enseñanza: </strong>"+feature.properties.enseñanza+"<br/>"+ "<strong> Servicios: </strong>"+feature.properties.servicios+"<br/>"+ "<strong> Bilingüe: </strong>"+feature.properties.bilingüe+"<br/>");  
+    layer.bindPopup( "<h4>" + feature.properties.nombre + "</h4><hr>"+"<strong> Tipo: </strong>"+feature.properties.tipo+"<br/>"+ "<strong> Gestión: </strong>"+feature.properties.gestion+"<br/>"+ "<strong> Domicilio: </strong>"+feature.properties.direccion+"<br/>"+ "<strong> Localidad: </strong>"+feature.properties.localidad+"<br/>"+ "<strong> Teléfono: </strong>"+feature.properties.tlfno+"<br/>"+ "<strong> Enseñanza: </strong>"+feature.properties.enseñanza+"<br/>"+ "<strong> Servicios: </strong>"+feature.properties.servicios+"<br/>"+ "<strong> Bilingüe: </strong>"+feature.properties.bilingüe+"<br/>");  
 }
 
 var centros = L.geoJson(null, {
