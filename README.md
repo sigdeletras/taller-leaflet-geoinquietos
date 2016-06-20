@@ -4,7 +4,7 @@ Patricio Soriano :: [sigdeletras.com](http://www.sigdeletras.com/)
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Taller básico de visores de mapas con Leaflet](#taller-bsico-de-visores-de-mapas-con-leaflet)
+- [Índice](#taller-bsico-de-visores-de-mapas-con-leaflet)
 	- [Práctica 1.- Crear estructura de carpetas y archivos](#prctica-1-crear-estructura-de-carpetas-y-archivos)
 	- [Práctica 2.- Editar index.html](#prctica-2-editar-indexhtml)
 	- [Prática 3.- Añadimos recursos externos (Leaflet, JQuery) e internos (map.css y map.js)](#prtica-3-aadimos-recursos-externos-leaflet-jquery-e-internos-mapcss-y-mapjs)
@@ -20,12 +20,10 @@ Patricio Soriano :: [sigdeletras.com](http://www.sigdeletras.com/)
 	- [Práctica 13.- Estilo L.circleMarker para capa centros](#prctica-13-estilo-lcirclemarker-para-capa-centros)
 	- [Práctica 14.- Estilo según atributo gestión](#prctica-14-estilo-segn-atributo-gestin)
 	- [Práctica 15.- Utilizar filter para crear dos capas para tipos de gestión](#prctica-15-utilizar-filter-para-crear-dos-capas-para-tipos-de-gestin)
-- [Plugins](#plugins)
 	- [Práctica 16. Plugins. Geocoding](#prctica-16-plugins-geocoding)
 	- [Práctica 17.- Plugins. Hash](#prctica-17-plugins-hash)
 	- [Práctica 18.- Plugins. Locate](#prctica-18-plugins-locate)
 	- [Práctica 19.- Botón de extensión inicial](#prctica-19-botn-de-extensin-inicial)
-- [btn-zum{](#btn-zum)
 
 <!-- /TOC -->
 ## Práctica 1.- Crear estructura de carpetas y archivos
