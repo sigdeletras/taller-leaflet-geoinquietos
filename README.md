@@ -178,7 +178,7 @@ var overlayMaps = {
 
 ## Práctica 10.- Información de los centros
 
-![datoscolegio](img/datos_colegios.png.png)
+![datoscolegio](img/datos_colegios.png)
 
 En index.html **Importante!!!**
 
