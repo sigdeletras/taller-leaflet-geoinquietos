@@ -7,7 +7,7 @@ Patricio Soriano :: [sigdeletras.com](http://www.sigdeletras.com/)
 - [Índice](#taller-bsico-de-visores-de-mapas-con-leaflet)
 	- [Práctica 1.- Crear estructura de carpetas y archivos](#prctica-1-crear-estructura-de-carpetas-y-archivos)
 	- [Práctica 2.- Editar index.html](#prctica-2-editar-indexhtml)
-	- [Práctica 3.- Añadimos recursos externos (Leaflet, JQuery) e internos (map.css y map.js)](#prtica-3-aadimos-recursos-externos-leaflet-jquery-e-internos-mapcss-y-mapjs)
+	- [Prática 3.- Añadimos recursos externos (Leaflet, JQuery) e internos (map.css y map.js)](#prtica-3-aadimos-recursos-externos-leaflet-jquery-e-internos-mapcss-y-mapjs)
 	- [Práctica 4.- Editamos map.css](#prctica-4-editamos-mapcss)
 	- [Práctica 5.- Editamos map.js y añadimos L.map](#prctica-5-editamos-mapjs-y-aadimos-lmap)
 	- [Práctica 6.- Añadiendo capa vectorial GeoJSON (JQuery)](#prctica-6-aadiendo-capa-vectorial-geojson-jquery)
@@ -68,7 +68,6 @@ Patricio Soriano :: [sigdeletras.com](http://www.sigdeletras.com/)
   <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
   <link href='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css' rel='stylesheet' />
   <link rel="stylesheet" href="map.css">
-  <script src="assets/map.js"></script>
 ...
 
 </head>
