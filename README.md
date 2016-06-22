@@ -1,6 +1,8 @@
 # Taller básico de visores de mapas con Leaflet
 
 Patricio Soriano :: [sigdeletras.com](http://www.sigdeletras.com/)
+Geoinquietos Córdoba
+Junio'16
 
 ## Práctica 1.- Crear estructura de carpetas y archivos
 
