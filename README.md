@@ -1,7 +1,9 @@
 # Taller básico de visores de mapas con Leaflet
 
 Patricio Soriano :: [sigdeletras.com](http://www.sigdeletras.com/)
-Geoinquietos Córdoba
+
+[Geoinquietos Córdoba](https://wiki.osgeo.org/wiki/Category:Geoinquietos_C%C3%B3rdoba)
+
 Junio'16
 
 ## Práctica 1.- Crear estructura de carpetas y archivos
