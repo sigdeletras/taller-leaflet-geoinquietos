@@ -16,6 +16,8 @@ Patricio Soriano :: [sigdeletras.com](http://www.sigdeletras.com/)
 
 ## Práctica 2.- Editar index.html
 
+- Herramientas: Sublime Text, Atom...
+
 ```
 <!DOCTYPE html>
 <html>
@@ -32,7 +34,11 @@ Patricio Soriano :: [sigdeletras.com](http://www.sigdeletras.com/)
 
 ## Prática 3.- Añadimos recursos externos (Leaflet, JQuery) e internos (map.css y map.js)
 
-[Leaflet Download](http://leafletjs.com/download.html)
+Localizar URL de los recursos externo y atención a las versiones
+
+- [Leaflet Download](http://leafletjs.com/download.html)
+- [JQuery](https://code.jquery.com/)
+
 
 ```
 <!DOCTYPE html>
@@ -73,6 +79,11 @@ Patricio Soriano :: [sigdeletras.com](http://www.sigdeletras.com/)
 ```
 
 ## Práctica 5.- Editamos map.js y añadimos L.map
+
+- [Doc Map](http://leafletjs.com/reference.html#map-usage)
+- [Doc TileLayer](http://leafletjs.com/reference.html#tilelayer)
+- Ejemplos de Tile maps [Leaflet-providers](https://github.com/leaflet-extras/leaflet-providers)
+
 ```
 var map = L.map('map', {
     center: [37.88437176085360, -4.779524803161621],
@@ -93,7 +104,11 @@ basemapOSM.addTo(map);
 
 ## Práctica 6.- Añadiendo capa vectorial GeoJSON (JQuery)
 
-[Descarga](https://drive.google.com/folderview?id=0B4ae3iJxxLBuOGU1SlFVMjFzbzQ&usp=sharing)
+- Información vectorial [Leaflet Quick Start Guide](http://leafletjs.com/examples/quick-start.html)
+- [Wikipedia GeoJSON](https://es.wikipedia.org/wiki/GeoJSON)
+- Herramientes: GeoWE, geojson.io, Instamap, uMap...
+
+[Descarga datos prácticas](https://drive.google.com/folderview?id=0B4ae3iJxxLBuOGU1SlFVMjFzbzQ&usp=sharing)
 
 ```
 var centros = L.geoJson(null);
@@ -111,6 +126,10 @@ centros.addTo(map);
 ![p6](img/ej_06.png)
 
 ## Práctica 7.- Control de capas
+
+- [Layer Groups and Layers Control](http://leafletjs.com/examples/layers-control.html)
+- Documentación [Control Layer](http://leafletjs.com/reference.html#control-layers)
+- [Extensión Leaflet.groupedlayercontrol](https://github.com/ismyrnow/Leaflet.groupedlayercontrol)
 
 ```
 var baseMaps = {
@@ -130,6 +149,9 @@ L.control.layers(baseMaps, overlayMaps,{
 ![p7](img/ej_07.png)
 
 ## Práctica 8.- Escala
+
+[Control Scale](http://leafletjs.com/reference.html#control-scale)
+
 ```
 L.control.scale({
   imperial: false
@@ -141,7 +163,9 @@ L.control.scale({
 
 ## Práctica 9.- Añadiendo L.tileLayer.WMS, GeoJSON poligonal de parques y cargando en control de capas
 
-[Consulta parques y jardines en Overpass Turbo](http://overpass-turbo.eu/s/gPm)
+- [Doc TileLayer.WMS](http://leafletjs.com/reference.html#tilelayer-wms)
+
+Datos [Consulta parques y jardines en Overpass Turbo](http://overpass-turbo.eu/s/gPm)
 
 Catálogo de WMS [IDEE](http://idee.es/web/guest/directorio-de-servicios?p_p_id=DIRSRVIDEE_WAR_DIRSRVIDEEportlet_INSTANCE_q4BW&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_DIRSRVIDEE_WAR_DIRSRVIDEEportlet_INSTANCE_q4BW_descSrv=VISUALIZACION&_DIRSRVIDEE_WAR_DIRSRVIDEEportlet_INSTANCE_q4BW_supertipo=OGC&_DIRSRVIDEE_WAR_DIRSRVIDEEportlet_INSTANCE_q4BW_tipoServicio=WMS)
 
@@ -177,6 +201,8 @@ var overlayMaps = {
 ![p9](img/ej_09.png)
 
 ## Práctica 10.- Información de los centros
+
+- [Opciones de geoJSON](http://leafletjs.com/reference.html#geojson)
 
 ![datoscolegio](img/datos_colegios.png)
 
@@ -220,6 +246,8 @@ var centros = L.geoJson(null, {
 
 ## Práctico 12.- Estilo a la capa poligonal (style)
 
+- Style [path](http://leafletjs.com/reference.html#path)
+
 ```
 function estiloZonasVerdes(feature) {
   return {
@@ -237,7 +265,7 @@ var zonasverdes = L.geoJson(null,{
 
 ![p12](img/ej_12.png)
 
-## Práctica 13.- Estilo L.circleMarker para capa centros
+## Práctica 13.- Estilo L.circleMarker para capa centros (pointToLayer)
 
 ```
 function estiloCircleMarker(feature, latlng) {
@@ -286,6 +314,8 @@ function estiloCircleMarker(feature, latlng) {
 
 ##  Práctica 15.- Utilizar filter para crear dos capas para tipos de gestión
 
+- [Operadores de comparación](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+- 
 ```
 var centros_privado = L.geoJson(null, {
   onEachFeature: centrosInfoPopup,
@@ -300,11 +330,10 @@ var centros_privado = L.geoJson(null, {
 
 ## Práctica 16. Plugins. Geocoding
 
-[Extensiones de geocoding](http://leafletjs.com/plugins.html#geocoding)
+- [Extensiones de geocoding](http://leafletjs.com/plugins.html#geocoding)
+- [L.GeoSearch](https://github.com/smeijer/L.GeoSearch)
 
-Vamos a utilizar [L.GeoSearch](https://github.com/smeijer/L.GeoSearch)
-
-En index.html
+En *index.html*
 
 ```
   <script src="http://smeijer.github.io/L.GeoSearch/src/js/l.control.geosearch.js"></script>
@@ -312,7 +341,7 @@ En index.html
   <link rel="stylesheet" href="http://smeijer.github.io/L.GeoSearch/src/css/l.geosearch.css" />
 ```
 
-En map.js
+En *map.js*
 
 ```
 var buscaCalle = new L.Control.GeoSearch({
@@ -325,26 +354,25 @@ buscaCalle.addTo(map);
 ![p16](img/ej_16.png)
 
 ## Práctica 17.- Plugins. Hash
-[Interactive pan/zoom](http://leafletjs.com/plugins.html#interactive-panzoom)
 
-leaflet-hash https://github.com/mlevans/leaflet-hash
+- [Interactive pan/zoom](http://leafletjs.com/plugins.html#interactive-panzoom)
+- [leaflet-hash](https://github.com/mlevans/leaflet-hash)
 
-En index.html
+En *index.html*
 ```
 <script src="http://mlevans.github.io/leaflet-hash/javascripts/leaflet-hash.js" type="text/javascript"></script>
 
 ```
 
-
-En map.js
+En *map.js*
 ```
 var hash = new L.Hash(map);
 ```
 
 ## Práctica 18.- Plugins. Locate
-[leaflet-locatecontrol]([https://github.com/domoritz/leaflet-locatecontrol/tree/gh-pages])
+- [leaflet-locatecontrol]([https://github.com/domoritz/leaflet-locatecontrol/tree/gh-pages])
 
-En index.html
+En *index.html*
 
 ```
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
@@ -353,7 +381,7 @@ En index.html
 <script src="https://www.domoritz.de/leaflet-locatecontrol/src/L.Control.Locate.js" ></script>
 ```
 
-En map.js
+En *map.js*
 
 ```
 var lc = L.control.locate({
@@ -363,9 +391,10 @@ var lc = L.control.locate({
 }).addTo(map);
 
 ```
-## Práctica 19.- Botón de extensión inicial
+## Práctica 19.- Botón de extensión inicial (JQuery)
+- [jQuery Tutorial](http://www.w3schools.com/jquery/)
 
-index.hmtl
+En *index.hmtl*
 ```
 <body>
 	<div id='map'></div>
@@ -376,7 +405,7 @@ index.hmtl
 </body>
 ```
 
-map.css
+En *map.css*
 ```
 #btn-zum{
        position: absolute;
@@ -386,7 +415,8 @@ map.css
 
 }
 ```
-map.js
+En *map.js*
+
 ```
 $("#btn-zum").click(function() {
 	// map.fitBounds(centros.getBounds());
