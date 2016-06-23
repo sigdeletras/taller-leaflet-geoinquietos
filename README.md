@@ -6,6 +6,23 @@ Patricio Soriano :: [sigdeletras.com](http://www.sigdeletras.com/)
 
 Junio'16
 
+## Objetivo
+
+Crear un visor web con información sobre los servicios escolares de Córdoba (España). Los datos proceden del DERA de la Junta e información de la Consejería de Educación.
+
+![visor.png](img/visor.png)
+
+- Visor a pantalla completa y diseño adaptado
+- Límites de zum máximo y mínimo y límites geográficos del municipio de Córdoba
+- Control de capas base y vectoriales
+    + Capas base: OSM y WMS del PNOA
+    + Capas vectoriales: centros escolares públicos, privados y zonas verdes (OSM)
+- Información al pinchar sobre el centro
+- Simbología puntual y poligonal
+- Escala
+- Extensiones: buscador de calles, gelocalización, zum y coordenadas en la URL
+- Botón zum extensión municipio
+ 
 ## Práctica 1.- Crear estructura de carpetas y archivos
 
 **Carpetas**
